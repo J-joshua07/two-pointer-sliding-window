@@ -1,4 +1,4 @@
-#Find how many times each number appears.
+#count frequency
 
 arr = [2, 1, 2, 3, 1, 2]
 

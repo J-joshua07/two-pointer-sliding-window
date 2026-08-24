@@ -1,5 +1,4 @@
-#find duplicates
-
+#find duplicate
 
 arr = [4, 2, 7, 2, 9, 4]
 
