@@ -1,31 +1,44 @@
-# valid parathesis
+# # valid parathesis
 
 
-def is_valid(s):
+# def is_valid(s):
 
-    stack = []
+#     stack = []
 
-    pairs = {
-        ')': '(',
-        ']': '[',
-        '}': '{'
-    }
+#     pairs = {
+#         ')': '(',
+#         ']': '[',
+#         '}': '{'
+#     }
 
-    for char in s:
+#     for char in s:
 
-        if char in '([{':
-            stack.append(char)
+#         if char in '([{':
+#             print(char)
+#             stack.append(char)
+#             print(stack)
 
-        else:
-            if not stack:
-                return False
+#         else:
+#             print(char)
+#             if not stack:
+#                 return False
+#             print(stack[-1])
+#             print(pairs[char])
+#             if stack[-1] != pairs[char]:
+#                 return False
 
-            if stack[-1] != pairs[char]:
-                return False
+#             stack.pop()
 
-            stack.pop()
-
-    return len(stack) == 0
+#     return len(stack) == 0
 
 
-print(is_valid("()"))
+# #print(is_valid("()"))
+
+# print(is_valid("if stack[-1]"))
+
+s = "if stack[-1][[[[]]]{]"
+
+c1 = s.count("[")
+c2 = s.count("]")
+print(c1)
+print(c2)
