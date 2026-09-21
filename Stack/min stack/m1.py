@@ -2,6 +2,8 @@
 
 
 s = MinStack()
+print(s)
+print(type(s))
 
 s.push(5)
 print(s.get_min())   # 5

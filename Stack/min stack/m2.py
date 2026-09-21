@@ -27,9 +27,16 @@ class MinStack:
 s = MinStack()
 
 s.push(10)
-s.push(5)
+print(s.min_stack,s.stack)
 s.push(8)
-s.push(2)
+print(s.min_stack,s.stack)
 s.push(7)
+print(s.min_stack,s.stack)
+s.push(5)
+print(s.min_stack,s.stack)
 
+s.push(2)
+print(s.min_stack,s.stack)
+
+#print(s.min_stack,s.stack)
 print("Minimum:", s.get_min())

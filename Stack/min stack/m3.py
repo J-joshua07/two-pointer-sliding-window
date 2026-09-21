@@ -39,4 +39,4 @@ print("Minimum:", s.get_min())
 
 s.pop()
 
-print("Minimum:", s.get_min())
+#print("Minimum:", s.get_min())
